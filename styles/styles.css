@@ -63,10 +63,60 @@ li{
 
 /* quick lists */
 
+ 
+.lists{
+    display: flex;
+    
+    margin-left: 100px;
+    margin-top: 85px;
+    margin-right: 100px;
+   
+}
+.images{
+    width: 342px;
+    height: 342px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.list{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.list-title{
+    font-size: 45px;
+}
+#gray{
+    color: #727272;
+    font-weight: 500;
+}
+#black{
+    color: black;
+    font-weight: 700;
+}
+#yellow{
+    color: #FF900E;
+    font-weight: 700;
+}
+.list-des{
+    color: #727272;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.list-btn{
+    color: white;
+    background-color:  #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 25px;
+    margin-top: 32px;
+}
 
 
-
-
+/* Mobile device */
 
 @media screen and (max-width:576px) {
     .nav{
@@ -97,4 +147,64 @@ li{
         margin-left: 0;
         margin-right: 0;
     }
+    .lists{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-left: 5px;
+        margin-right: 5px; 
+        margin-top: 0;
+        text-align: center;
+    }
+    .list{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .list-btn{
+        margin-bottom: 40px;
+    }
+    .images{
+        width: 100%;
+        grid-template-columns: repeat(1 , 1fr);
+        margin-left: 10px;
+    }
+     
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn{
+        margin-left: 330px;
+    }
+    .img{
+        width:  100%;
+        height: 400px;
+        margin-left: 0;
+    }
+    .lists{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-left: 5px;
+        margin-right: 5px; 
+        margin-top: 0;
+        text-align: center;
+    }
+    .list{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .list-btn{
+        margin-bottom:40px;
+    }
+    .images{
+        width: 100%;
+        grid-template-columns: repeat(2 , 2fr);
+        margin-left: 20px;
+        gap: 40px; 
+    }
+
+
 }
