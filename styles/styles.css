@@ -9,7 +9,7 @@
 
 /* banner styles */
 
-.banner{
+.nav{
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px 0px 228px;
 }
@@ -59,4 +59,42 @@ li{
     height: 600px;
     margin-left: 30px;
     margin-bottom: 30px;
+}
+
+/* quick lists */
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav{
+        width: 100%;
+        background-color: white;
+        margin: 0; 
+        padding: 10px;
+    }
+    .topnav{
+        display: none;
+    }
+    .navbar{
+         flex-direction: column-reverse;
+        
+    }
+    .nav-title{
+        text-align: center;
+    }
+    .banner-title{
+        margin-top: 20px;
+    }
+    .btn{
+        margin:32px 0px 50px 100px ; 
+    }
+    .img{
+        width: 380px;
+        height:350px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
