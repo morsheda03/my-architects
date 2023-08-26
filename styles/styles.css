@@ -115,6 +115,75 @@ li{
     margin-top: 32px;
 }
 
+/* Feature section styles */
+
+.features{
+    display: flex  ;
+    gap: 120px;
+    margin-top: 335px;
+    margin-left: 150px;
+}
+#image {
+    width: 600px;
+    height: 900px;
+    border-radius: 8px;
+    margin-right: 150px;
+}
+.feature-header{
+    display: flex;
+}
+.btnn{
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px;
+}
+.feature-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 21px;
+}
+.feature-des{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom:30px;
+    margin-top: 24px;
+}
+.box{
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    padding: 30px 33px;
+    border-radius: 8px;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box-des{
+    color: #727272;
+    font-size: 16px;
+}
+.feature-btn{
+    color: white;
+    background-color: #FF900E;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 30px 34px;
+    border: none;
+    border-radius: 5px;
+    line-height: 70px;
+    margin-top: -500px;
+    margin-left: -80px;
+}
+#experience{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+ 
+
 
 /* Mobile device */
 
@@ -166,8 +235,27 @@ li{
         width: 100%;
         grid-template-columns: repeat(1 , 1fr);
         margin-left: 10px;
+        margin-bottom: 1100px;
     }
-     
+    .features{
+        flex-direction: column;
+        gap: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+    .feature{
+        margin-top: 50px;
+    }
+    #image{
+        width: 100%;
+        height: 500px;
+        margin-top: -100px;
+    }
+    .feature-btn{
+      margin-left: 10px; 
+      padding: 15px 20px ;
+    }
+    
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -205,6 +293,30 @@ li{
         margin-left: 20px;
         gap: 40px; 
     }
+    .features{
+        flex-direction: column;
+        gap: 120px;
+    margin-top: 400px;
+    margin-left: 0px;
+    }
+    .feature{
+        margin-top: 50px;
+    }
+    .feature-title{
+        margin-top: 20px;
+    }
+    #image{
+        width: 600;
+        height: 700px;
+        margin-top: -100px;
+        margin-left: 200px;
+    }
+    .feature-btn{
+      margin-left: 10px; 
+      padding: 15px 20px ;
+      margin-top: -100px;
+    }
+
 
 
 }
