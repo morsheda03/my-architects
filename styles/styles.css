@@ -182,6 +182,53 @@ li{
     line-height: 40px; 
 }
 
+/* Some Facts styles */
+
+
+.facts-mouth{
+    margin-left: 240px;
+    margin-top: 140px;
+}
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-des{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+.facts{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.fact-btn{
+    border-radius: 5px;
+    border-color: #FF900E;
+    background-color: white;
+    margin: 100px 50px;
+}
+#number{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+#icon{
+    margin-bottom: -40px;
+    width: 45.221px;
+    height: 45.222px;
+    padding-top: 45px;
+}
+.fact-des{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -40px;
+    padding: 3px 5px 10px 5px  ;
+}
+
+
  
 
 
@@ -237,6 +284,7 @@ li{
         margin-left: 10px;
         margin-bottom: 1100px;
     }
+    /* features */
     .features{
         flex-direction: column;
         gap: 120px;
@@ -255,10 +303,29 @@ li{
       margin-left: 10px; 
       padding: 15px 20px ;
     }
+    /* facts */
+    .facts-mouth{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .facts{
+       flex-direction: column;
+       gap: 0px;
+        justify-content: center;
+    }
+    .fact-btn{
+        margin: 10px 60px;
+    }
+    .fact-des{
+        margin-top: -40px;
+        padding: 3px 50px 10px 50px  ;
+    }
+    
     
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
+    
     .nav{
         width: 100%;
         padding-left: 20px;
@@ -315,6 +382,24 @@ li{
       margin-left: 10px; 
       padding: 15px 20px ;
       margin-top: -100px;
+    }
+    /* facts */
+    .facts-mouth{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .facts{
+        width: 100%;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+    }
+    .fact-btn{
+        margin: 10px 20px;
+    }
+    .fact-des{
+        margin-top: -40px;
+        padding: 3px 30px 10px 30px  ;
     }
 
 
