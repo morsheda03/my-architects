@@ -247,7 +247,17 @@ li{
     margin: 60px 100px 130px 100px ;
     
  }
- 
+
+ /* footer */
+  .footer{
+    background-color: #FFF4E7;
+    padding: 38px 50px;
+    margin: 100px 100px;
+    text-align: center;
+    border-radius: 8px;
+    color: #424242;
+    font-size: 20px;
+  }
 
 
 /* Mobile device */
@@ -347,6 +357,8 @@ li{
         gap: 40px;  
         justify-content: center;
      }  
+
+     /* footer */
     
 }
 
